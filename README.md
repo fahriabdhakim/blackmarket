@@ -1,3 +1,0 @@
-# blackmarket
-
-Sports Equipment Ecommerce
