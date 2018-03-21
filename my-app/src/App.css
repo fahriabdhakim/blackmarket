@@ -8,10 +8,19 @@
 }
 
 .App-header {
+  display: block;
+  z-index: 10;
+  position: fixed;
   background-color: black;
   height: 250px;
+  width: 100%;
   padding: 70px;
   color: white;
+}
+
+.Main-content {
+  z-index: -10;
+  margin-top: 250px;
 }
 
 .App-title {
@@ -60,6 +69,10 @@
   margin: 0 auto;
   padding: 40px;
   background-color: #ff4757;
+}
+
+.Imageslide {
+  margin: auto;
 }
 
 .ui.secondary.menu {

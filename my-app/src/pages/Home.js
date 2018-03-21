@@ -6,7 +6,7 @@ class Home extends React.Component{
   render() {
     var settings = {
       dots: true,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 3000
     }
     return (

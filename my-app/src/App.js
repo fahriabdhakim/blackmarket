@@ -22,7 +22,7 @@ export default class App extends Component {
         <NavBar className="Nav-Bar"/>
       </header>
       <br/>
-      <div>
+      <div className="Main-content">
         <Route exact path="/" component={Home}/>
         <Route  path="/Shoes" component={Shoes}/>
         <Route  path="/Clothes" component={Clothes}/>
